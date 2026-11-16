@@ -1,0 +1,4 @@
+node_modules/
+package-lock.json
+# The baseline is a "before" photo. It is never formatted or fixed.
+baseline/

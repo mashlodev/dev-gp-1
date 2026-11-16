@@ -1,0 +1,15 @@
+{
+  "name": "golden-path",
+  "private": true,
+  "description": "My 60-week path to front-end design-engineer. Every build, every devlog, every gate.",
+  "scripts": {
+    "format": "prettier --write .",
+    "check:format": "prettier --check .",
+    "check:html": "html-validate \"**/*.html\"",
+    "check": "npm run check:format && npm run check:html"
+  },
+  "devDependencies": {
+    "html-validate": "^11.21.1",
+    "prettier": "^3.10.1"
+  }
+}
